@@ -1,10 +1,10 @@
 # Hello_World_Deep_Learning
 High-level introduction into practical machine learning for purposes of medical
-image classification using the Tensorflow framework as it is currently the most actively used and the Keras library, which a high-level application programming interface that simplifies working with Tensorflow.
+image classification using the Tensorflow framework.
 
 Goal:
 
-The goal of this tutorial is to build a deep learning classifier to accurately differentiate between the two.
+Build a deep learning classifier to accurately differentiate between the a chest x-ray and abdominal x-ray.
 
 Inspiration: 
 
@@ -14,11 +14,11 @@ Link to the publication: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5959832/
 
 Dataset: 
 
-We provide 75 images, 38 are chest X-rays, and 37 are abdominal X-rays. These de-identified PNGs obtained from openI, https://openi.nlm.nih.gov/, a searchable online repository of medical images from published PubMed Central articles.
+75 images, 38 are chest X-rays, and 37 are abdominal X-rays obtained from openI, https://openi.nlm.nih.gov/, a searchable online repository of medical images from published PubMed Central articles.
 
 Transfer learning: Inseption V3, ImageNet
 
-Loss Function: binary cross-entropy
+Loss Function: Binary cross-entropy
 
 Optimization algorithm: Adam optimizer
 
