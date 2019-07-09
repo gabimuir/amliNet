@@ -1,2 +1,2 @@
-# ForageTumor
-Foraging for tumors in your chest x-rays! 
+# amliNet
+Automated Medical Lung Imaging Net
