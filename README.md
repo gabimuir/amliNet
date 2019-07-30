@@ -15,8 +15,7 @@ Download the zip file and unzip onto the hard drive (unzipped size also approxim
 The zipped file fits great on Google Drive, but Google Drive is unable to handle the number of subdirectories within the training data, and will always fail to unzip. Luckily, Google Colab exists and works very similarly to Jupyter notebook, with easy access to Google Drive. Colab can unzip the file to the runtime, which will persist on that runtime for a whole day. The data can then be used like it was on a local hard drive.
 
 ### Method 3: Upload to Google Cloud Bucket, run models on Google Cloud virtual machine
-(not recommended because google cloud sucks)
-
+We uploaded the unzipped file to a google cloud bucket, then launched an instance of the google cloud virtual machine and edited Jupyter notebooks through there. The results were very slow, so Google Colab was the option we mostly chose to use.
 
 ## Our models
 We have run a number of different models: DenseNet121, ResNet, Simple CNNs, and more. We have also provided a template where any number of models can be tested or custom created. 
