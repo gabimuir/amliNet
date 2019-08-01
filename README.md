@@ -2,6 +2,7 @@
 Automated Medical Lung Imaging Net:
 Using machine learning to predict pathologies from chest x-rays.
 
+The amliNet team: Alex, Vita, Gabi
 
 ## The Dataset
 The data we used to train and test our models is the CheXpert dataset, created by researchers at Stanford. The data is avaible after filling out the form on the bottom of their website: https://stanfordmlgroup.github.io/competitions/chexpert/ Our models all used the downsampled resolution images, called the 'small' set. 
@@ -19,3 +20,4 @@ We uploaded the unzipped file to a google cloud bucket, then launched an instanc
 
 ## Our models
 We have run a number of different models: DenseNet121, ResNet, Simple CNNs, and more. We have also provided a template where any number of models can be tested or custom created. 
+
