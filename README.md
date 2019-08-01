@@ -19,5 +19,12 @@ The zipped file fits great on Google Drive, but Google Drive is unable to handle
 We uploaded the unzipped file to a google cloud bucket, then launched an instance of the google cloud virtual machine and edited Jupyter notebooks through there. The results were very slow, so Google Colab was the option we mostly chose to use.
 
 ## Our models
-We have run a number of different models: DenseNet121, ResNet, Simple CNNs, and more. We have also provided a template where any number of models can be tested or custom created. 
+We have run a number of different pretarined models: DenseNet121, ResNet, Xception and more. We have also provided a template where any number of models can be tested or custom created. 
+
+Our final goals:
+
+How can we maximize model performance for binary classification?
+Does adding non-image features improve binary classification?
+How does our model perform with multi-label classification?
+
 
